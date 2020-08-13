@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tahsinocity</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about-style.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <div class="polaroid">
+        <img src="about_pic.jpg" class ="pro" alt="about-pic">
+        <div class="container">
+        <p>Tahsin Ahmed</p>
+        <br>
+        <p1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, cumque!</p>
+        </div>
+    </div>
+    
+   
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    
+</body>
+</html>

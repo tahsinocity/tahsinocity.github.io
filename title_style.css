@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* egg gradient: witness */
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 477.71;
+    stroke-dashoffset: 477.71;
+    animation: line-anim 1.5s ease forwards;
+}
+
+#logo path:nth-child(2){
+    stroke-dasharray: 619.88;
+    stroke-dashoffset: 619.88;
+    animation: line-anim 1.5s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3){
+    stroke-dasharray: 689.04;
+    stroke-dashoffset: 689.04;
+    animation: line-anim 1.5s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4){
+    stroke-dasharray: 364.02;
+    stroke-dashoffset: 364.02;
+    animation: line-anim 1.5s ease forwards 0.9s;
+}
+
+#logo path:nth-child(5){
+    stroke-dasharray: 475.69;
+    stroke-dashoffset: 475.69;
+    animation: line-anim 1.5s ease forwards 1.2s;
+}
+
+#logo path:nth-child(6){
+    stroke-dasharray: 570.62;
+    stroke-dashoffset: 570.62;
+    animation: line-anim 1.5s ease forwards 1.5s;
+}
+
+#logo path:nth-child(7){
+    stroke-dasharray: 514.16;
+    stroke-dashoffset: 514.16;
+    animation: line-anim 1.5s ease forwards 1.8s;
+}
+
+#logo path:nth-child(8){
+    stroke-dasharray: 573.80;
+    stroke-dashoffset: 573.80;
+    animation: line-anim 1.5s ease forwards 2.1s;
+}
+
+#logo path:nth-child(9){
+    stroke-dasharray: 475.68;
+    stroke-dashoffset: 475.68;
+    animation: line-anim 1.5s ease forwards 2.4s;
+}
+
+#logo path:nth-child(10){
+    stroke-dasharray: 477.70;
+    stroke-dashoffset: 477.70;
+    animation: line-anim 1.5s ease forwards 2.7s;
+}
+
+#logo path:nth-child(11){
+    stroke-dasharray: 763.50;
+    stroke-dashoffset: 763.50;
+    animation: line-anim 1.5s ease forwards 3s;
+}
+
+@keyframes line-anim{
+    to{
+      stroke-dashoffset: 0;  
+    }
+}
+
+.container{
+    text-align: center;
+    margin-top: 600px;    
+}
+.container a .button1{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    letter-spacing: 2em;
+    font-family: Montserrat;
+    font-weight: bold;
+    opacity: 0%;
+    font-size: 15px;
+}
+  
+.button1 {
+    background: transparent;
+    color:white; 
+    border-radius: 12px;
+    animation: bt1 .5s 3s forwards;
+}
+
+.button1:hover {
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.322);
+    background: #f9484a linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+    animation: hover 2s forwards;
+}
+@keyframes hover {
+  from {
+      opacity: 0;
+    }
+  to {
+      opacity: 1;
+    }
+}
+@keyframes bt1 {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+/* .transition-fade {
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-changing .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+} */

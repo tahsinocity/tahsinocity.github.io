@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #4d205f;
+background-image: linear-gradient(147deg, #451b55e7 0%, #150b1ae7 74%);
+    font-family: Montserrat;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    font-family: Montserrat;
+}
+
+.logo{
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-size: 20px;
+    display: flex;
+}
+
+.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+
+.nav-links li{
+    list-style: none;
+    background-image: transparent;
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .4s ease-out;
+}
+
+.nav-links li:hover{
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    background-size: 50% 2px, auto;
+}
+
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all .3s ease-in;
+}
+
+.nav-links a:hover{
+    color: #ac185d;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1021px){
+    .nav-links{
+        width:55%;
+    }
+    .nav-links a{
+        font-size: 13px;
+    }
+}

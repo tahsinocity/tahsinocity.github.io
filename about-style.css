@@ -1,0 +1,25 @@
+
+.polaroid {
+  width: 55%;
+  background-color: orange;
+  margin-bottom: 25px;
+  display: flex;
+  scroll-padding-top: 20px;
+  margin-top: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 10px #e43a0bbb;
+}
+
+
+.container {
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.pro{
+  max-width: 55%;
+  height: auto;
+  display: block;
+}
