@@ -88,16 +88,18 @@
     float: right;
 }
 
-.img #tail{
-    animation: tails 1s ease;
+#tail{
+    animation: tails 2s infinite linear;
+    transform-origin: center;
+    animation-direction: alternate;
 }
 
 @keyframes tails{
     from{
-        transform: rotateY(0deg);
+        transform: rotateZ(0deg);
     }
     to{
-        transform: rotateY(180deg);
+        transform: rotateZ(15deg);
     }
 }
 
