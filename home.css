@@ -1,105 +1,103 @@
-.img1{
-    max-width: 30%;
-    height: auto;
-    position: fixed;
-    top: 35%;
-    left: 65%;
-}
-
+/* Welcome Box */
 
 .welcome {
-    width: 55%;
-    background-color: rgb(255, 166, 0);
-    display: flex;
-    scroll-padding-top: 30px;
-    margin-top: 100px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 10px 10px #e43a0bbb;
+  /* width: 55%;
+  background-color: rgb(255, 166, 0);
+  display: flex;
+  scroll-padding-top: 30px;
+  margin-top: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 10px #e43a0bbb; */
+  height: 100vh;
 }
 
-.container {
-    text-align: left;
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 17px;
+.intro_box {
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 17px;
 }
 
-.container h1{
-    font-size: 45px;
+.container h1 {
+  font-size: 45px;
 }
 
-.container1 a .button1{
-    border: none;
-    position: relative;
-    top: 100px;
-    left:40%;
-    color: white;
-    padding: 16px 32px;
-    font-size: 16px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    letter-spacing: 1em;
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 15px;
-    box-shadow: 2px 2px #d3370cbb;
+.container1 a .button1 {
+  border: none;
+  position: relative;
+  top: 100px;
+  left: 40%;
+  color: white;
+  padding: 16px 32px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  letter-spacing: 1em;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 2px #d3370cbb;
 }
-  
+
 .button1 {
-    background: transparent;
-    background-color: #923cb5;
-    border-radius: 12px;
+  background: transparent;
+  background-color: #923cb5;
+  border-radius: 12px;
 }
 
 .container1 a .button1:hover {
-    color:rgb(15, 15, 15);
-    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.322);
+  color: rgb(15, 15, 15);
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.322);
 }
 
-@media screen and (max-width:1021px){
-    .img1{
-        top:45%;
-        left: 60%;
-        max-width: 40%;
-    }
-    .container1 a .button1{
-        left: 20%;
-        top: 70px;
-    }
+/*Responsiveness*/
+
+@media screen and (max-width: 1021px) {
+  .img1 {
+    top: 45%;
+    left: 60%;
+    max-width: 40%;
+  }
+  .container1 a .button1 {
+    left: 20%;
+    top: 70px;
+  }
 }
+
+/*Cat Animation*/
+
+#tail {
+  animation: tails 2s infinite linear;
+  transform-origin: center;
+  animation-direction: alternate;
+}
+
+@keyframes tails {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(15deg);
+  }
+}
+
+/* Footer */
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255, 0, 0, 0.205);
-    color: white;
-    text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
-.footer a{
-    text-decoration: none;
-    color: ivory;
+.footer a {
+  text-decoration: none;
+  color: ivory;
 }
 
 .social_logos {
-    float: right;
+  float: right;
 }
-
-#tail{
-    animation: tails 2s infinite linear;
-    transform-origin: center;
-    animation-direction: alternate;
-}
-
-@keyframes tails{
-    from{
-        transform: rotateZ(0deg);
-    }
-    to{
-        transform: rotateZ(15deg);
-    }
-}
-
