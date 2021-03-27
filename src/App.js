@@ -1,11 +1,13 @@
 import './App.css';
+import waving from '../src/dist/img/tenor.gif';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1>Hi, I'm Tahsin Ahmed! 👋</h1>
-				<h4>website in progress...</h4>
+				<h1>Hi, I'm Tahsin Ahmed!</h1>
+				<p>website in progress...</p>
+				<img src={waving} alt="waving" />
 			</header>
 		</div>
 	);
