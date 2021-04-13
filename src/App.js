@@ -39,7 +39,7 @@ function App() {
 						<h1>
 							Start Eating at : {changeTo12(prayerData.timings.Maghrib)} PM
 						</h1>
-						<img src={waving} alt="waving" />
+						{/* <img src={waving} alt="waving" /> */}
 					</>
 				) : null}
 			</header>
