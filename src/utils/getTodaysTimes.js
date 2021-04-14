@@ -8,7 +8,6 @@ export function getTodaysTimes() {
 		let today = newDate.toDateString();
 		let newTiming = new Date(times[i].date);
 		let timing = newTiming.toDateString();
-
 		if (today === timing) {
 			return times[i];
 		}
