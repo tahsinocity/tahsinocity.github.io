@@ -11,7 +11,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: calc(7px + 2vmin);
+	font-size: calc(8px + 2vmin);
 	color: #e66f4e;
 	pointer-events: none;
 }
@@ -27,8 +27,9 @@
 }
 
 .timer {
-	font-size: 0.7rem;
-	color: #e7b9b9;
+	font-size: 1rem;
+	font-weight: 900;
+	color: #e4a9a9;
 }
 .App-link {
 	color: #61dafb;
