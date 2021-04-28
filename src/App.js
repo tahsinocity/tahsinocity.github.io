@@ -27,8 +27,8 @@ function App() {
 						<iframe
 							title="ramadan"
 							src="https://giphy.com/embed/nKA4aQgYPQKHbRA10y"
-							width="480"
-							height="480"
+							width="400"
+							height="400"
 							frameBorder="0"
 							className="giphy-embed"
 							allowFullScreen
@@ -38,6 +38,7 @@ function App() {
 						<h1>Suhr Ends : {prayerData.suhr}</h1>
 						<h1>Iftaar At : {prayerData.iftar}</h1>
 						<Timer hour={hours} minute={minutes} second={seconds} />
+						<h6>For Rupom ❤️</h6>
 						<p>*Only applicable for NYC resident</p>
 					</div>
 				) : (
